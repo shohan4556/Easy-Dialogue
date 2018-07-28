@@ -15,9 +15,8 @@ MonoBehaviour:
     characterIcon: {fileID: 21300000, guid: 6b4937571dc265a47b26fe091cc3455d, type: 3}
     characterName: Pinky
     text:
-    - This is first text This is first text This is first text This is first text
-      This is first text This is first text
-    - This is another text, I love Bangladesh, This is first text This is first text
-      This is first text
-    - This is another text, I love you Baby, This is first text This is first text
-      This is first text This is first text
+    - 'It was hard enought staying focused on my own life, but with Jas and Shano
+      here now, have to care three times as much. '
+    - "You can catch me at saloon most night\t"
+    - The Saloon is a great place to unwind. Gus is a great guy, and hearing his stories
+      of his travels is one of my favorite things to do.
