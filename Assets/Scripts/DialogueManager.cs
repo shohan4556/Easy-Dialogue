@@ -16,7 +16,8 @@ namespace EasyDialogue
         
         [Header("Interact Key")] public KeyCode interactionKey = KeyCode.E;
         public bool enableSkip;
-        public float lineVisibleTime = 2f;
+        public float lineVisibleTime = 3f;
+        
 
         private string currentText = String.Empty;
         private Text dialogueText;
@@ -95,7 +96,7 @@ namespace EasyDialogue
             dialogueText.text = "";
             foreach (var letter in sentence) {
                 dialogueText.text += letter;
-                yield return new WaitForSeconds(0.01f);
+                yield return new WaitForSeconds(0.025f);
             }
 
             yield return new WaitForSeconds(lineVisibleTime);
